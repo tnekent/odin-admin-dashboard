@@ -74,7 +74,7 @@ header {
 }
 
 .user-greeting {
-    --prof-img-w-h: 5rem;
+    --prof-img-w-h: 4rem;
 
     display: grid;
     grid-template-columns: max-content;
