@@ -13,6 +13,12 @@ body {
         "sidebar main";
 }
 
+.ph-icon {
+    width: var(--icon-w-h);
+    height: var(--icon-w-h);
+    background-color: black;
+}
+
 header {
     grid-area: header;
     background-color: khaki;
@@ -20,6 +26,25 @@ header {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     padding: 1em 3em;
+}
+
+.search-bar {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 10% 1fr;
+    --icon-w-h: 2em;
+    align-items: center;
+    justify-items: end;
+    gap: 1em;
+}
+
+.search-bar input {
+    width: 100%;
+    font-size: 1em;
+    height: var(--icon-w-h);
+    border-radius: 1em;
+    background-color: #e2e8f0;
+    border: none;
 }
 
 header > div {
