@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+p {
+    margin: 0;
+}
+
 body {
     margin: 0;
     min-height: 100vh;
@@ -67,6 +71,31 @@ header {
     gap: 2rem;
     font-weight: bold;
     font-size: 1.3rem;
+}
+
+.user-greeting {
+    --prof-img-w-h: 5rem;
+
+    display: grid;
+    grid-template-columns: max-content;
+    grid-template-rows: max-content;
+    gap: 0.2rem 1rem;
+    grid-template-areas: 
+        "img greeting"
+        "img username";
+
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.user-greeting .ph-profile-img {
+    grid-area: img;
+    align-self: center;
+}
+
+.user-greeting .greeting-text {
+    align-self: end;
+    font-size: 0.6em;
 }
 
 header > div {
