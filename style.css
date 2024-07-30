@@ -11,12 +11,20 @@ body {
     grid-template-areas: 
         "sidebar header"
         "sidebar main";
+    font-family: sans-serif;
 }
 
 .ph-icon {
     width: var(--icon-w-h);
     height: var(--icon-w-h);
     background-color: black;
+}
+
+.ph-profile-img {
+    width: var(--prof-img-w-h);
+    height: var(--prof-img-w-h);
+    background-color: teal;
+    border-radius: 50%;
 }
 
 header {
@@ -45,6 +53,20 @@ header {
     border-radius: 1em;
     background-color: #e2e8f0;
     border: none;
+}
+
+.profile-actions {
+    --icon-w-h: 2rem;
+    --prof-img-w-h: 3rem;
+    
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: max-content;
+    align-items: center;
+    justify-content: end;
+    gap: 2rem;
+    font-weight: bold;
+    font-size: 1.3rem;
 }
 
 header > div {
