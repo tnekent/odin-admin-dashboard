@@ -97,6 +97,25 @@ header {
     font-size: 0.6em;
 }
 
+.content-actions {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.content-actions > button {
+    font: inherit;
+    width: max-content;
+    height: max-content;
+    border-radius: 2em;
+    border: none;
+    padding: .7em 1.8em;
+    background-color: #1992d4;
+    color: white;
+}
+
 header > div {
     border: 1px solid black;
 }
