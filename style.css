@@ -38,6 +38,7 @@ header {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     padding: 1em 3em;
+    font-weight: bold;
 }
 
 .search-bar {
@@ -69,7 +70,6 @@ header {
     align-items: center;
     justify-content: end;
     gap: 2rem;
-    font-weight: bold;
     font-size: 1.3rem;
 }
 
@@ -84,7 +84,6 @@ header {
         "img greeting"
         "img username";
 
-    font-weight: bold;
     font-size: 1.7rem;
 }
 
