@@ -16,12 +16,21 @@ body {
 header {
     grid-area: header;
     background-color: khaki;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 1em 3em;
+}
+
+header > div {
+    border: 1px solid black;
 }
 
 nav {
     grid-area: sidebar;
     background-color: lightcoral;
 }
+
 
 main {
     grid-area: main;
