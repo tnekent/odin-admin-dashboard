@@ -18,10 +18,10 @@ body {
     font-family: sans-serif;
 }
 
-.ph-icon {
+.icon {
     width: var(--icon-w-h);
     height: var(--icon-w-h);
-    background-color: black;
+    fill: var(--icon-color, black);
 }
 
 .ph-profile-img {
@@ -45,10 +45,10 @@ header {
 }
 
 .search-bar {
+    --icon-w-h: 2em;
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: max-content 1fr;
-    --icon-w-h: 2em;
     align-items: center;
     justify-items: end;
     gap: 1em;
@@ -116,8 +116,11 @@ header {
 }
 
 nav {
-    --icon-space: 2rem;
+    --icon-space: 3rem;
     --icon-text-gap: .5rem;
+    --icon-w-h: 1.2em;
+    --icon-color: white;
+
     grid-area: sidebar;
     background-color: #1992d4;
     z-index: 2;
@@ -135,7 +138,6 @@ nav {
 nav > ul {
     display: grid;
     gap: 1rem;
-    --icon-w-h: 1em;
     list-style: none;
     padding: 0;
 }
@@ -149,7 +151,7 @@ nav li {
     column-gap: var(--icon-text-gap);
 }
 
-nav li > .ph-icon {
+nav li > .icon {
     justify-self: center;
 }
 
@@ -199,7 +201,7 @@ main {
     color: #555
 }
 
-.proj-card > .ph-icon {
+.proj-card > .icon {
     justify-self: end;
 }
 
