@@ -161,6 +161,10 @@ nav li > a {
     color: inherit;
 }
 
+nav li > a:hover {
+    text-decoration: underline;
+}
+
 nav > .sidebar-heading {
     --icon-w-h: var(--icon-space);
     display: grid;
