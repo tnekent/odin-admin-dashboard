@@ -238,6 +238,7 @@ main {
     background-color: white;
     padding: 2.5em;
     border-radius: 0.5em;
+    font-size: 0.7em;
 
     display: grid;
     gap: var(--gap);
