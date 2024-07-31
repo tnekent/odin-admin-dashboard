@@ -169,6 +169,10 @@ nav > .sidebar-heading {
 main {
     grid-area: main;
     background-color: lightgreen;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .proj-card {
