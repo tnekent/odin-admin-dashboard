@@ -114,6 +114,12 @@ header {
     padding: .7em 1.8em;
     background-color: #1992d4;
     color: white;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.content-actions > button:active {
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 nav {
