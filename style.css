@@ -128,6 +128,11 @@ nav {
     font-size: 1.3rem;
 }
 
+nav > ul {
+    display: grid;
+    gap: 1rem;
+}
+
 main {
     grid-area: main;
     background-color: lightgreen;
