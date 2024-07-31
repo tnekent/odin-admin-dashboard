@@ -127,7 +127,7 @@ nav {
     padding-left: 1rem;
     padding-top: 1rem;
     display: grid;
-    grid-template-rows: max-content 2fr 3fr;
+    grid-auto-rows: max-content;
     gap: 3rem;
     align-items: start;
 }
