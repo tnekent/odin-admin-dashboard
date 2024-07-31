@@ -55,6 +55,7 @@ header {
 
 .search-bar input {
     width: 100%;
+    padding-left: 1rem;
     font-size: 1em;
     height: var(--icon-w-h);
     border-radius: 1em;
