@@ -216,7 +216,6 @@ main {
 }
 
 .m-sect {
-    grid-row: 1 / -1;
     display: grid;
     gap: 0.7em;
 }
@@ -226,4 +225,8 @@ main {
     font-weight: bold;
     font-size: 1.7em;
     justify-self: start;
+}
+
+#m-proj-sect {
+    grid-row: 1 / -1;
 }
