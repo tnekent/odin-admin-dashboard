@@ -217,8 +217,12 @@ main {
     color: #555
 }
 
-.proj-card > .icon {
+.proj-card > button {
     justify-self: end;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 5px;
 }
 
 .proj-card-list {
