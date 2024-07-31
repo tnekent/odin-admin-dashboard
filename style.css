@@ -80,18 +80,14 @@ header {
     --prof-img-w-h: 4rem;
 
     display: grid;
-    grid-template-columns: max-content;
-    grid-template-rows: max-content;
+    grid-template-columns: max-content 1fr;
+    align-items: center;
     gap: 0.2rem 1rem;
-    grid-template-areas: 
-        "img greeting"
-        "img username";
 
     font-size: 1.7rem;
 }
 
 .user-greeting .ph-profile-img {
-    grid-area: img;
     align-self: center;
 }
 
