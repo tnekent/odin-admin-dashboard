@@ -24,10 +24,9 @@ body {
     fill: var(--icon-color, black);
 }
 
-.ph-profile-img {
+.profile-img {
     width: var(--prof-img-w-h);
     height: var(--prof-img-w-h);
-    background-color: teal;
     border-radius: 50%;
 }
 
