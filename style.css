@@ -128,6 +128,10 @@ nav {
     font-size: 1.3rem;
     padding-left: 1rem;
     padding-top: 1rem;
+    display: grid;
+    grid-template-rows: max-content 2fr 3fr;
+    gap: 3rem;
+    align-items: start;
 }
 
 nav > ul {
