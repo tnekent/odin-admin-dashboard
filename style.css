@@ -171,8 +171,8 @@ main {
     background-color: lightgreen;
 
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: repeat(2, auto);
     padding: 1rem;
     gap: 1rem;
 }
