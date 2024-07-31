@@ -108,7 +108,7 @@ header {
 
 .content-actions > button {
     font: inherit;
-    width: max-content;
+    width: 7rem;
     height: max-content;
     border-radius: 2em;
     border: none;
