@@ -210,8 +210,7 @@ main {
 .proj-card-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: max-content;
-    grid-auto-rows: 1fr;
+    grid-auto-rows: max-content;
     justify-items: center;
     gap: 1rem;
 }
