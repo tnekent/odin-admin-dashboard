@@ -156,6 +156,11 @@ nav li > .icon {
     justify-self: center;
 }
 
+nav li > a {
+    text-decoration: none;
+    color: inherit;
+}
+
 nav > .sidebar-heading {
     --icon-w-h: var(--icon-space);
     display: grid;
