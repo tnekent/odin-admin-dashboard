@@ -194,7 +194,7 @@ main {
 .proj-card {
     --icon-w-h: 2rem;
     background-color: #fff;
-    padding: 2rem 1.5rem 2rem 1rem;
+    padding: 2rem 1.5rem 0.5rem 1rem;
     border-radius: 0.5rem;
     border-left: 0.5rem outset #f0b429;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
