@@ -126,6 +126,8 @@ nav {
     color: white;
     font-weight: bold;
     font-size: 1.3rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
 }
 
 nav > ul {
