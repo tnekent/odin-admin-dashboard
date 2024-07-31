@@ -177,8 +177,6 @@ main {
 
 .proj-card {
     --icon-w-h: 2rem;
-    width: 22rem;
-    height: 14rem;
     background-color: #fff;
     padding: 2rem 1.5rem 2rem 1rem;
     border-radius: 0.5rem;
@@ -205,4 +203,13 @@ main {
 
 .proj-card > .ph-icon {
     justify-self: end;
-} 
+}
+
+.proj-card-list {
+    grid-row: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    justify-items: center;
+    gap: 1rem;
+}
