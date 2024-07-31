@@ -137,7 +137,7 @@ nav {
 
 nav > ul {
     display: grid;
-    gap: 1rem;
+    gap: 1.5rem;
     list-style: none;
     padding: 0;
 }
