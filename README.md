@@ -1,0 +1,2 @@
+# Odin Project: Admin Dashboard
+This is my implementation of the [admin dashboard project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard) from [The Odin Project](https://www.theodinproject.com).
